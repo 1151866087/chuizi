@@ -1,0 +1,417 @@
+.logo {
+  background: #000;
+  line-height: 100px;
+}
+
+.logo .container .logo-img {
+  background: url("../images/logo.gif") no-repeat left center;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.logo .container ul {
+  padding: 0 50px;
+  justify-content: center;
+  float: left;
+}
+
+.logo .container ul :nth-of-type(1) a {
+  color: #fff;
+}
+
+.logo .container ul li {
+  width: 125px;
+  float: left;
+  margin: 0 10px;
+}
+
+.logo .container div {
+  float: left;
+}
+
+.logo .container div span {
+  font-size: 17px;
+  color: #fff;
+}
+
+.logo .container div button {
+  margin-left: 30px;
+  background: #000;
+  width: 90px;
+  height: 30px;
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  color: #ccc;
+}
+
+.nav {
+  border-bottom: 1px solid #ccc;
+}
+
+.nav ul {
+  float: left;
+}
+
+.nav ul :nth-of-type(1) a {
+  color: #333;
+}
+
+.nav ul li {
+  float: left;
+  width: 80px;
+  line-height: 90px;
+}
+
+.nav ul li a {
+  color: #666;
+}
+
+.nav ul li a:hover {
+  color: #333;
+}
+
+.nav ul .drop .drop-content {
+  width: 100%;
+  left: 0px;
+  display: none;
+  background: #ececec;
+  z-index: 100;
+}
+
+.nav ul .drop .drop-content div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 30px;
+  padding: 60px 0;
+  border-bottom: 1px solid #999;
+}
+
+.nav ul .drop .drop-content div p {
+  color: red;
+}
+
+.nav ul .drop:hover .drop-content {
+  display: block;
+}
+
+.nav > div {
+  float: right;
+  padding-top: 45px;
+}
+
+.nav > div i {
+  margin-right: 5px;
+}
+
+.nav > div span:not(.shopping_cart) {
+  display: inline-block;
+  width: 22px;
+  background: #666;
+  color: #fff;
+  border-radius: 11px;
+  line-height: 22px;
+}
+
+.nav > div .shopping_cart div {
+  z-index: 100;
+  display: none;
+  color: #CCC;
+  width: 335px;
+  right: -7px;
+  top: 40px;
+  padding: 60px 10px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.nav > div .shopping_cart div .icon-iconfontcart {
+  font-size: 80px;
+}
+
+.nav > div .shopping_cart div h {
+  line-height: 30px;
+  font-size: 16px;
+  color: #333;
+}
+
+.nav > div .shopping_cart div::before {
+  content: "";
+  display: block;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+  position: relative;
+  top: -80px;
+  right: -260px;
+  width: 0px;
+}
+
+.nav > div .shopping_cart:hover > div {
+  display: block;
+}
+
+.container-center > div {
+  margin-top: 30px;
+  overflow: hidden;
+  border-radius: 7px;
+  margin-bottom: -1px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.container-center > div:not(.display) > div {
+  padding: 17px 0;
+}
+
+.container-center > div > p {
+  line-height: 60px;
+  font-size: 16px;
+  color: #333;
+  padding-left: 40px;
+  background: #fafafa;
+  border-bottom: 1px solid #aaa;
+}
+
+.container-center > div h4 {
+  font-size: 14px;
+  color: #333;
+  line-height: 20px;
+}
+
+.container-center > div h {
+  line-height: 14px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.container-center > div .change {
+  padding: 20px 0;
+  height: 60px;
+}
+
+.container-center > div .change ul {
+  display: flex;
+  justify-content: center;
+}
+
+.container-center > div .change ul .hong {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  margin: 0 5px;
+}
+
+.container-center > div .change ul .hong div {
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+  top: 1px;
+  left: 1px;
+}
+
+.container-center > div .change ul .hong:hover {
+  border: 2px solid #999 !important;
+}
+
+.container-center > div .change ul .choice {
+  border: 2px solid #999 !important;
+}
+
+.container-center .banner {
+  height: 500px;
+  margin-top: 0px;
+}
+
+.container-center .display {
+  overflow: hidden;
+}
+
+.container-center .display div {
+  height: 197px;
+}
+
+.container-center .display div:nth-of-type(1) {
+  background: url("../images/4-1.jpg") no-repeat center center;
+}
+
+.container-center .display div:nth-of-type(2) {
+  background: url("../images/4-2.jpg") no-repeat center center;
+}
+
+.container-center .display div:nth-of-type(3) {
+  background: url("../images/4-3.jpg") no-repeat center center;
+}
+
+.container-center .display div:nth-of-type(4) {
+  background: url("../images/4-4.jpg") no-repeat center center;
+}
+
+.container-center .trends {
+  overflow: hidden;
+}
+
+.container-center .trends div {
+  height: 197px;
+}
+
+.container-center .trends div:nth-of-type(1) {
+  background: url("../images/8-1.jpg") no-repeat center center;
+}
+
+.container-center .trends div:nth-of-type(2) {
+  background: url("../images/8-2.jpg") no-repeat center center;
+}
+
+.container-center .trends div:nth-of-type(3) {
+  background: url("../images/8-3.jpg") no-repeat center center;
+}
+
+.container-center .trends div:nth-of-type(4) {
+  background: url("../images/8-4.jpg") no-repeat center center;
+}
+
+.container-center .apply button, .container-center .forum button {
+  width: 100px;
+  height: 35px;
+  right: 30px;
+  top: 13px;
+  background: #CCC;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.container-center .apply > div, .container-center .forum > div {
+  height: 350px;
+}
+
+.container-center .apply a, .container-center .forum a {
+  line-height: 30px;
+}
+
+.container-center .apply a:hover, .container-center .forum a:hover {
+  color: #678ee7;
+}
+
+.container-center .apply img {
+  margin: 40px;
+}
+
+.container-center .forum > div {
+  padding: 30px !important;
+}
+
+.container-center .forum > div div {
+  border-radius: 5px;
+  overflow: hidden;
+  width: 245px;
+  height: 155px;
+}
+
+.container-center .forum > div h4 {
+  margin-top: 30px;
+  height: 45px;
+}
+
+.container-center .forum > div p {
+  height: 40px;
+}
+
+.hot div .price, .picked div .price, .brand div .price {
+  height: 40px;
+  color: red;
+}
+
+.hot div .details, .picked div .details, .brand div .details {
+  height: 40px;
+  display: none;
+}
+
+.hot div .details button, .picked div .details button, .brand div .details button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #999;
+  background: #ccc;
+}
+
+.hot div .details button:hover, .picked div .details button:hover, .brand div .details button:hover {
+  background: #678ee7;
+  color: #fff;
+}
+
+.hot div:hover .price, .picked div:hover .price, .brand div:hover .price {
+  display: none;
+}
+
+.hot div:hover .details, .picked div:hover .details, .brand div:hover .details {
+  display: block;
+}
+
+.picked-wrap, .brand-wrap {
+  padding: 0 0 !important;
+  overflow: hidden;
+  height: 427.2px;
+}
+
+.foot {
+  background: #fafafa;
+  margin-top: 30px;
+}
+
+.foot ul {
+  margin: 50px 90px 50px 0;
+  float: left;
+  line-height: 22px;
+}
+
+.foot ul ol {
+  color: #333;
+}
+
+.foot .help {
+  margin: 60px 0 0;
+  float: right;
+  text-align: right;
+}
+
+.foot .help button {
+  width: 120px;
+  height: 35px;
+  background: #CCC;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.foot .footer {
+  height: 125px;
+  border-top: 1px solid #ccc;
+  padding: 50px 0;
+}
+
+.foot .footer p {
+  line-height: 25px;
+}
+
+.foot .footer p a {
+  border-left: 1px solid #ccc;
+  color: #678ee7;
+}
+
+.foot .footer h {
+  color: #a3a3a3;
+}
+
+.foot .footer div {
+  right: 30px;
+  top: 20px;
+}
+
+.foot .footer div select {
+  border: 0px;
+  background: #fafafa;
+}
